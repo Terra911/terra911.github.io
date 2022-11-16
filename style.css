@@ -1,0 +1,35 @@
+body{
+    background-image: radial-gradient(rgb(234, 93, 93), rgb(236, 188, 105));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(7, 40, 69)
+}
+
+#container-general{
+    text-align: center;
+}
+
+#opciones{
+    grid-template-columns: 100px;
+    border:dotted;
+    border-color: crimson;
+    padding: 50px 5px 50px 5px;
+    text-align: center;
+}
+
+
+.opcion{
+    background-color: cornflowerblue;
+    border:solid;
+    border-color: cadetblue;
+    border-width: 4px;
+    margin:5px 100px;
+    padding: 4px;
+       
+}
+
+
+
+#pie{
+    background-image: linear-gradient(tomato,rgb(250, 39, 2));
+    padding: 25px
+}
