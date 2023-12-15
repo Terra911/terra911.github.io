@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="formbody">
+    <div class="cabecera">
+        <h1>Muebles San Roque S.A</h1>
+        <img src="imagenes/icono.png" class="icono">
+    </div>
+
+<div class="formulario-de-compras">
+    <h2>Formulario de Compra</h2>
+    <form id="purchaseForm" class="Informacion">
+        <label for="name"> Apellido y nombre :</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <h3>Dirección</h3>  
+        <label for="address">Calle:</label>
+        <input type="text" id="dirección" name="direccion" required>
+        <label for="address">Numero:</label>
+        <input type="text" id="direccion" name="direccion" required><br>
+        <label for="address">Localidad:</label>
+        <input type="text" id="direccion" name="direccion" required>
+        <label for="address">CP :</label>
+        <input type="text" id="direccion" name="direccion" required><br>
+
+
+
+        <label for="producto">Elija su producto:</label>
+        <select id="producto" name="producto" required>
+            <option value="mueble1">Bajo-Mesada</option>
+            <option value="mueble2">Soporte para Tv</option>
+            <option value="mueble3">Alacena</option>
+            <option value="mueble4">Escritorio</option>
+            <option value="mueble5">Mesa</option>
+            <option value="mueble6">Placard</option>
+        </select><br>
+
+        <label for="cantidad">Elija la cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" max="5" required><br>
+
+        <button type="button" onclick="SubirFormulario()" class="is-button">Enviar</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
